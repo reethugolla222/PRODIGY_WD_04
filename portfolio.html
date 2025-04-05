@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>reetu | Web Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+      padding: 1rem 2rem;
+    }
+
+    nav h1 {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #home {
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .intro h2 {
+      font-size: 32px;
+      margin: 0.5rem 0;
+    }
+
+    .btn {
+      padding: 0.7rem 1.2rem;
+      background-color: white;
+      color: #2575fc;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .details li {
+      margin: 0.5rem 0;
+    }
+
+    .project-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .project-card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      color: white;
+    }
+
+    a {
+      color: #2575fc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>reethu</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <div class="intro">
+       
+        <h2>Hi, I'm reethu</h2>
+        <p>Web Developer | Problem Solver | Tech Enthusiast</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate web developer with experience in front-end and back-end development. I love building responsive, user-friendly websites and web applications that solve real-world problems.
+      </p>
+      <ul class="details">
+        <li><strong>Education:</strong> B.Tech in Computer Science</li>
+        <li><strong>Experience:</strong> 2+ years in web development</li>
+        <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>My personal website showcasing my work and background.</p>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>App that fetches weather data using OpenWeatherMap API.</p>
+        </div>
+        <div class="project-card">
+          <h3>Task Manager</h3>
+          <p>A to-do app with authentication and user management.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: reethugolla222@gmail.com</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/reetu</a></p>
+      <p>GitHub: <a href="#">github.com/reetu</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;  All rights reserved.</p>
+  </footer>
+
+  <script>
+    console.log("Portfolio loaded successfully!");
+  </script>
+</body>
+</html>
